@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Full Stack AI Career Coach with Next JS, Neon DB, Tailwind, Prisma, Inngest, Shadcn UI Tutorial 🔥🔥
 ## https://youtu.be/UbXpRv5ApKA
 
@@ -18,3 +19,6 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
 
 GEMINI_API_KEY=
 ```
+=======
+# Alspire
+>>>>>>> 72859d3915e63230ea01ff675053869cfbee539e
