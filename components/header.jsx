@@ -7,6 +7,7 @@ import {
   GraduationCap,
   ChevronDown,
   StarsIcon,
+  Briefcase,
 } from "lucide-react";
 import Link from "next/link";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
@@ -29,9 +30,9 @@ export default async function Header() {
           <Image
             src={"/logo.png"}
             alt="Sensai Logo"
-            width={200}
-            height={60}
-            className="h-12 py-1 w-auto object-contain"
+            width={400}
+            height={500}
+            className="h-14 py-1 w-auto object-contain"
           />
         </Link>
 
@@ -50,6 +51,19 @@ export default async function Header() {
                 <LayoutDashboard className="h-4 w-4" />
               </Button>
             </Link>
+
+            <Link href="/hired">
+  <Button
+    variant="outline"
+    className="hidden md:inline-flex items-center gap-2"
+  >
+    <Briefcase className="h-4 w-4" />
+    Get Hired
+  </Button>
+  <Button variant="ghost" className="md:hidden w-10 h-10 p-0">
+    <Briefcase className="h-4 w-4" />
+  </Button>
+</Link>
 
             {/* Growth Tools Dropdown */}
             <DropdownMenu>
