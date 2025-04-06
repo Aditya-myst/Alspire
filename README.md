@@ -47,7 +47,7 @@
 
 ```bash
 git clone https://github.com/Aditya-myst/Alspire.git
-cd Alspire
+cd coach
 npm install
 npm run dev
 
