@@ -1,24 +1,53 @@
-<<<<<<< HEAD
-# Full Stack AI Career Coach with Next JS, Neon DB, Tailwind, Prisma, Inngest, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/UbXpRv5ApKA
+# 🚀 Alspire – Smarter Hiring. Verified Talent.
+![Uploading image.png…]()
 
-![sensai](https://github.com/user-attachments/assets/eee79242-4056-4d19-b655-2873788979e1)
+**Alspire** is an AI-powered, blockchain-enhanced hiring platform that empowers candidates and recruiters through trust, automation, and smart insights.
 
-### Make sure to create a `.env` file with following variables -
+---
 
-```
-DATABASE_URL=
+## ✨ Features
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
+- 📝 **AI Resume & Cover Letter Generator**  
+  Generate tailored application documents using AI trained on your job niche.
 
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+- 🧠 **Smart Quizzes Based on Your Industry**  
+  Attempt quizzes curated by AI to reflect real-world job expectations.
 
-GEMINI_API_KEY=
-```
-=======
-# Alspire
->>>>>>> 72859d3915e63230ea01ff675053869cfbee539e
+- 🔍 **Live Industry Insights**  
+  Stay updated with curated trends, skill demands, and hiring tips.
+
+- 📰 **Newsletter Integration**  
+  Get real-time hiring updates, tips, and recommendations straight to your inbox.
+
+- 🔐 **Blockchain-Backed Hiring Workflow**  
+  Ensure trust with a transparent, tamper-proof hiring journey from application to offer.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, Tailwind CSS, ShadCN UI  
+- **AI Services**: OpenAI APIs (resume/cover letters, quiz logic, feedback)  
+- **Blockchain**: Solidity, Smart Contracts, IPFS/Filecoin  
+- **Backend (optional)**: Node.js/Express for API orchestration  
+
+---
+
+## 📈 Future Roadmap
+
+- 🎯 AI Job Matching Engine  
+- 📹 Video Resume Verification on-chain  
+- 📊 Recruiter Skill Heatmaps  
+- ✅ DAO-like Candidate Voting/Referrals  
+- 📬 Smart contract-generated job offers
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/Aditya-myst/Alspire.git
+cd Alspire
+npm install
+npm run dev
+
